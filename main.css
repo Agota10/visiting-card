@@ -40,7 +40,7 @@ h2 {
   background-color: hsla(0, 0%, 40%, .2);
   border-radius: 50%;
   box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
-  margin-top: 300px;
+  margin: 200px;
   width: 50%;
 }
 
@@ -52,7 +52,7 @@ h2 {
 }
 
 .card {
-  max-width: calc(100vw - 30px);
+  max-width: calc(100vw - 10px);
   width: 10%;
 }
 
