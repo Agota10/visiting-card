@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  height: 100vh;
   background: url('assets/Egyesko.jpg') no-repeat center center fixed;
   background-size: cover;
 }
@@ -43,6 +43,7 @@ h2 {
   width: 50%;
   height: auto;
   margin-top: 200px;
+  display: flex;
   
 }
 
@@ -55,6 +56,8 @@ h2 {
 
 .card {
   max-width: calc(100vw - 10px);
+  display: flex;
+  width: 50%
 }
 
 .card, .links {
