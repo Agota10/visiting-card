@@ -54,7 +54,6 @@ h2 {
 }
 
 .card {
-  width: 50px;
   max-width: calc(100vw - 10px);
 }
 
