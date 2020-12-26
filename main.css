@@ -39,7 +39,7 @@ h2 {
 
 .visiting-card {
   position: absolute;
-  background-color: hsla(0, 0%, 40%, .2);
+  background-color: hsla(0, 0%, 30%, .2);
   border-radius: 3%;
   box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 90px;
   width: 37vw;
