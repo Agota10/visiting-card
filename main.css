@@ -10,6 +10,7 @@ body {
   height: 100vh;
   background: url('assets/Egyesko.jpg') no-repeat center center fixed;
   background-size: cover;
+  
 }
 
 .fa-map-marker {
@@ -32,28 +33,29 @@ h2 {
 
 .me {
   color:azure;
-  font-size: 19px;
+  font-size: 20px;
   
 }
 
 .visiting-card {
+  position: relative;
   background-color: hsla(0, 0%, 40%, .2);
-  border-radius: 50%;
-  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
-  margin-top: 300px;
-  width: 50%;
+  border-radius: 3%;
+  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 90px;
+  margin-top: 200px;
+  width: 600px;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-size: 100%;
 }
 
 .card {
   max-width: calc(100vw - 10px);
-  width: 10%;
+  width: 50%;
 }
 
 .card, .links {
@@ -70,9 +72,12 @@ a {
 }
 
 img {
+  position: relative;
+  float: top;
+  margin: 10px;
   width: 170px;
   height: 170px;
-  border-radius: 50%;
+  border-radius: 10%;
   padding: 1px;
   background-color: white;
   transition: all 0.5s ease-in-out;
@@ -85,8 +90,7 @@ img:hover {
 }
 
 .profile-image {
-  margin-top: 10px;
-  line-height: 50px;
+  line-height: 60px;
 }
 
 ul {
@@ -97,14 +101,20 @@ li {
   display:inline;
 }
 
+.links {
+  font-size: 50px;
+  line-height: 50px;
+  
+}
+
 .card, .me {
   margin-bottom: 5%;
 }
 
 .about-me {
-  padding: 3% 7%;
+  padding: 3% 5%;
   border-top: 1px solid hsla(0, 0%, 0%, .9);
-  line-height: 22px;
+  line-height: 24px;
 }
 
 
