@@ -42,8 +42,8 @@ h2 {
   background-color: hsla(0, 0%, 30%, .2);
   border-radius: 5%;
   box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 90px;
-  width: 42vw;
-  height:42vw;
+  width: 500px;
+  height:auto;
   padding: 2px;
   box-sizing: border-box;
 }
@@ -55,7 +55,7 @@ h2 {
 
 .card {
   max-width: calc(100vw - 10px);
-  width: 30%;
+  width: 50%;
 }
 
 .card, .links {
@@ -113,7 +113,7 @@ li {
 .about-me {
   padding: 2% 2%;
   border-top: 1px solid hsla(0, 0%, 0%, .9);
-  line-height: 20px;
+  line-height: 23px;
 }
 
 
