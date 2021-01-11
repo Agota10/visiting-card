@@ -92,7 +92,7 @@ h2 {
   background-color: hsla(0, 0%, 30%, .2);
   border-radius: 5%;
   box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 90px;
-  width: 90vw;
+  width: 95vw;
   height:auto;
   padding: 0.125rem;
   box-sizing: border-box;
@@ -101,7 +101,7 @@ h2 {
 
 .card {
   max-width: calc(100vw - 10px);
-  width: 76%;
+  width: 33.3%;
 }
 
 .card, .links {
@@ -196,12 +196,12 @@ img,
 .visiting-card {
 			position: relative;
 			height: auto;
-			width: 76%;
+			width: 33.3%;
 	}
 
 .card {
 		float: top;
-		width: 90%;
+		width: 66.6%;
 		max-width: 812px;
 	}
 
@@ -210,7 +210,7 @@ img,
 @media (min-width: 1025px) {
 
 	.visiting-card {
-		width: 25%;
+		width: 33.3%;
 	}
 
 }
